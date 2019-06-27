@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Sounds
+		</title>
+		<link href="https://fonts.googleapis.com/css?family=Mali:400,600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style2.css"> 
+	</head>
+	<body>
+		<div>
+			<h1 id="type1">Learning</h1> 
+			<h1 id="type2">About</h1>
+			<h1 id="type3">Animals</h1>
+			<nav>
+				<ul>
+					<!--.navli not needed in css if using ul-->
+					<li ><a href="index-flex.html" style="color:blue">Home</a></li>
+					<li ><a href="about.html" style="color:red">About</a></li>
+					<li ><a href="#" style="color:green">Categories</a>
+					<ul >
+						<li ><a  href="names.html" style="color:rgb(24, 219, 210)">Names</a></li>
+						<li ><a class="active" href="sounds.html" style="color:white; text-decoration: underline;">Sounds</a></li>
+						<li ><a  href="#olors.html" style="color:rgb(168, 32, 123)">Colors</a></li>
+					</ul>
+					</li>	
+					<li><a href="gallery.html" style="color:orange">Gallery</a>
+				</ul>
+			</nav>
+			<br>
+		</div>
+		<hr>
+		<!--Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.-->
+		<div class="id01"><h2 style="font-size: 30px; color:darkturquoise;">Sounds</h2></div>
+        <div class="container" id="div1">
+            <!--Row 1-->
+            <div class="showcase">
+                <img src=https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg 
+                onClick="document.getElementById('audio_play').play(); return false;">
+                <audio id="audio_play">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/elephant.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+            <div class="showcase2">
+                <img src=https://images.pexels.com/photos/220097/pexels-photo-220097.jpeg
+                onClick="document.getElementById('audio_play2').play(); return false;">
+                <audio id="audio_play2">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/owl.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+            <div class="showcase3">
+                <img src=https://images.pexels.com/photos/833687/pexels-photo-833687.jpeg
+                onClick="document.getElementById('audio_play3').play(); return false;">
+                <audio id="audio_play3">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/duck.mp3" type="audio/mpeg">
+                </audio>            
+            </div>	
+            <!--Row 2-->
+            <div class="showcase">
+                <img  src=https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg
+                onClick="document.getElementById('audio_play4').play(); return false;">
+                <audio id="audio_play4">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/lion.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+            <div class="showcase2">
+                <img src=https://images.pexels.com/photos/110820/pexels-photo-110820.jpeg
+                onClick="document.getElementById('audio_play5').play(); return false;">
+                <audio id="audio_play5">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/pig.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+            <div class="showcase3" >
+                <img src=https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg
+                onClick="document.getElementById('audio_play6').play(); return false;">
+                <audio id="audio_play6">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/dog.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+            <!--Row 3-->
+            <div class="showcase">
+                <img  src=https://images.pexels.com/photos/60918/cow-beef-black-white-60918.jpeg
+                onClick="document.getElementById('audio_play7').play(); return false;">
+                <audio id="audio_play7">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/cow.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+            <div class="showcase2">
+                <img src=https://images.pexels.com/photos/635499/pexels-photo-635499.jpeg
+                onClick="document.getElementById('audio_play8').play(); return false;">
+                <audio id="audio_play8">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/horse.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+            <div class="showcase3">
+                <img src=https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg
+                onClick="document.getElementById('audio_play9').play(); return false;">
+                <audio id="audio_play9">
+                    <source src="https://www.google.com/logos/fnbx/animal_sounds/cat.mp3" type="audio/mpeg">
+                </audio>            
+            </div>
+        </div>	
+		<footer style="text-align:center; margin: 30px">
+			&copy; Copyright 2019 NJC Inc. All rights reserved.
+			<p class="attribution">
+				Designed and coded by <a href="#" style= "color:white">Norah Jean-Charles</a>.
+			</p>
+		</footer>
+	</body>
+</html>
+

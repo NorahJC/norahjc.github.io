@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Name
+		</title>
+		<link href="https://fonts.googleapis.com/css?family=Mali:400,600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style2.css"> 
+	</head>
+	<body>
+		<div>
+			<h1 id="type1">Learning</h1> 
+			<h1 id="type2">About</h1>
+			<h1 id="type3">Animals</h1>
+			<nav>
+				<ul>
+					<!--.navli not needed in css if using ul-->
+					<li ><a href="index-flex.html" style="color:blue">Home</a></li>
+					<li ><a href="about.html" style="color:red">About</a></li>
+					<li ><a href="#" style="color:green">Categories</a>
+					<ul >
+						<li ><a class="active" href="names.html" style="color:white; text-decoration: underline;">Names</a></li>
+						<li ><a  href="sounds.html" style="color:rgb(214, 218, 13)">Sounds</a></li>
+						<li ><a  href="colors.html" style="color:rgb(168, 32, 123)">Colors</a></li>
+					</ul>
+					</li>	
+					<li><a href="gallery.html" style="color:orange">Gallery</a>
+				</ul>
+			</nav>
+			<br>
+		</div>
+		<hr>
+		<!--Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.-->
+		<div class="id01"><h2 style="font-size: 30px; color:darkturquoise;">Names</h2></div>
+        <div class="container" id="div1">
+            <!--Row 1-->
+            <div class="showcase">
+                <img src=https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg>
+                <img id="switch1" src=./images/name-elephant.jpg>
+            </div>
+            <div class="showcase2">
+                <img src=https://images.pexels.com/photos/220097/pexels-photo-220097.jpeg>
+                <img id="switch2" src=./images/name-owl.jpg>					
+            </div>
+            <div class="showcase3">
+                <img src=https://images.pexels.com/photos/833687/pexels-photo-833687.jpeg>
+                <img id="switch3" src=./images/name-duck.jpg>					
+            </div>	
+            <!--Row 2-->
+            <div class="showcase">
+                <img  src=https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg>
+                <img id="switch4" src=./images/name-lion.jpg>
+            </div>
+            <div class="showcase2">
+                <img src=https://images.pexels.com/photos/110820/pexels-photo-110820.jpeg>
+                <img id="switch5" src=./images/name-pig.jpg>
+            </div>
+            <div class="showcase3" >
+                <img src=https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg>
+                <img id="switch6" src=./images/name-dog.jpg>
+            </div>
+        <!--Row 3-->
+            <div class="showcase">
+                <img  src=https://images.pexels.com/photos/60918/cow-beef-black-white-60918.jpeg>
+                <img id="switch7" src=./images/name-cow.jpg>
+            </div>
+            <div class="showcase2">
+                <img src=https://images.pexels.com/photos/635499/pexels-photo-635499.jpeg>
+                <img id="switch8" src=./images/name-horse.jpg>
+            </div>
+            <div class="showcase3">
+                <img src=https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg>
+                <img id="switch9" src=./images/name-cat.jpg>
+            </div>
+        </div>	
+		<footer style="text-align:center; margin: 30px">
+			&copy; Copyright 2019 NJC Inc. All rights reserved.
+			<p class="attribution">
+				Designed and coded by <a href="#" style= "color:white">Norah Jean-Charles</a>.
+			</p>
+		</footer>
+	</body>
+</html>
+
