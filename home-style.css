@@ -1,0 +1,91 @@
+/* Words */
+p{
+    font-size: 18px;
+}
+.home-para1{
+    margin: 0.5em 8em;
+    padding-top: 1.5em;
+    padding-bottom: 3.5em;
+    padding-left: 6.5em;
+    padding-right: 6.5em;
+    text-align: justify;
+    text-shadow:  2px 3px 3px black, 2px 2px 3px indigo, 1px 1px 1px white;
+    /* text-shadow: 1px 2px 2px black; */
+    /* font-size: 20px; */
+    letter-spacing: 1px;
+    /* line-height: 25px; */
+}
+
+.home-subTitle{
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 1px 2px 3px black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.home-list{
+    font-weight: 700;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 3px black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.word3{
+    font-weight: 700;
+    color: rgb(180, 80, 251);
+    text-shadow: 3px 2px 2px #ff4595, 2px 3px 2px white;
+    /* margin: 30px 7px; */
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+
+.word4{
+    font-weight: 700;
+    color: rgb(255, 181, 43);
+    text-shadow: 3px 2px 2px #45fff1, 2px 3px 3px white;
+    /* margin: 30px 7px; */
+    letter-spacing: 2px;
+    font-size: 1.1em;
+
+}
+
+.word5{
+    font-weight: 700;
+    color: rgb(251, 7, 7);
+    text-shadow: 3px 2px 2px rgb(94, 248, 94), 2px 3px 2px white;
+    /* margin: 30px 7px; */
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+
+.word6{
+    font-weight: 700;
+    color: blue;
+    text-shadow: 3px 2px 2px coral, 2px 3px 2px white;
+    /* margin: 30px 7px; */
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+
+/* Transformation/ Transition / Animation */
+
+#case1:hover{
+    -webkit-transform: rotate(360deg); /* Safari&Chrome */
+    transform: rotate(360deg);
+    transition: transform 1s;
+
+}
+
+#case2:hover{
+    -webkit-transform: rotate(360deg); /* Safari&Chrome */
+    transform: rotate(360deg);
+    transition: transform 1s;
+} 
+
+#case3:hover{
+    -webkit-transform: rotate(360deg); /* Safari&Chrome */
+    transform: rotate(360deg);
+    transition: transform 1s;
+}

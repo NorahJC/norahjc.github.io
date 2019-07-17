@@ -1,0 +1,21 @@
+/* gradient transition illusion */
+
+#case2{
+    border: 1px solid rgb(245, 220, 31);
+    box-shadow: -2px 2px 5px 2px rgb(153, 222, 17);
+    background-color: rgb(235, 24, 24);
+    position: relative;
+    z-index: 1;
+}
+#case2:hover{
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 251, 6)); */
+    /* -webkit-transform: scale(1.1); Safari&Chrome */
+    /* transform: scale(1.1); */
+    /* transition: transform 1s; */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 251, 6));
+    opacity: 1;
+    transition: all 3s;
+    z-index: -1;
+    transform: translateX(20%);
+
+}
