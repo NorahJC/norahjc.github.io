@@ -1,0 +1,27 @@
+Alphabet:
+https://i5.walmartimages.com/asr/60131dee-0011-4dbb-906d-ae26a029ceea_1.250ff7a7385d908942dea6be603b1c7b.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff
+
+Colors:
+https://i5.walmartimages.com/asr/d932516c-82a6-4070-86fd-570833d0128c_1.ff4b9ad9dd5113a3012f4a426723e58c.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff
+
+Shapes:
+https://i5.walmartimages.com/asr/d1da4d7d-d94e-4797-8bc6-5826bc499869_1.ef5d1be6f4f905d444d087eea857e49c.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff
+
+Numbers:
+https://i5.walmartimages.com/asr/a7b5bdca-522b-4989-a99f-8f231b7b20bc_1.144a48a51d5b237b2742a122b14c38a7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF
+
+Letters & Numbers:
+https://secure.img1-fg.wfcdn.com/im/90814716/resize-h600%5Ecompr-r85/2819/28195646/ABC+36+Piece+Floor+Mat.jpg
+
+PNG to SVG:
+https://www.pngtosvg.com/
+
+SVG:
+https://cloudfour.com/thinks/cropping-image-thumbnails-with-svg/
+https://css-tricks.com/scale-svg/
+
+Gradient Transitions:
+https://medium.com/@dave_lunny/animating-css-gradients-using-only-css-d2fd7671e759
+https://codepen.io/anon/pen/xvKjBv
+ https://keithjgrant.com/posts/2017/07/transitioning-gradients/
+ https://www.gradient-animator.com/
